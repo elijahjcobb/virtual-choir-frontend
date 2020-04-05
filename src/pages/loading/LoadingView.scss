@@ -1,0 +1,45 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "../../global";
+
+.loading {
+
+	background: $darkGreen;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	.ionIcon {
+		color: white;
+		width: 100px;
+		height: 100px;
+		animation: rotate 1s ease-in-out infinite;
+	}
+
+
+	span {
+		color: white;
+		font-weight: lighter;
+		font-size: 1.5em;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	@keyframes rotate {
+		from {
+			transform: rotate(270deg);
+		}
+		to {
+			transform: rotate(90deg);
+		}
+	}
+
+}

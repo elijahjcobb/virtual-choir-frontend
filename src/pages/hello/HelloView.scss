@@ -1,0 +1,54 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "../../global";
+
+.hello {
+
+	background: $darkGreen;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.container {
+		background: $green;
+		display: grid;
+		grid-template-columns: 25% 75%;
+		grid-template-rows: 100%;
+		width: 60vw;
+		border-radius: 20px;
+		overflow: hidden;
+		box-shadow: 0 10px 40px black;
+	}
+
+	.left {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.right {
+		padding: 40px;
+		margin-left: 80px;
+	}
+
+	p {
+		margin-top: 10px;
+	}
+
+	h1 {
+		padding: 80px;
+		font-size: 3em;
+	}
+
+	button {
+		position: absolute;
+		bottom: 100px;
+	}
+
+}

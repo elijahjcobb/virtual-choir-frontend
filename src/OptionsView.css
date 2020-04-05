@@ -1,0 +1,26 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.options {
+  width: 25vw;
+  background: #006851;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.options * {
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=OptionsView.css.map */

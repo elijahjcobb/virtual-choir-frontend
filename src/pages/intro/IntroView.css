@@ -1,0 +1,53 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.intro {
+  width: 100%;
+  height: 100%;
+  background: #008265;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro .form {
+  background: #006851;
+  box-shadow: 0 0 20px #006851;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 20px;
+}
+.intro .form h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+.intro .form input {
+  margin: 20px 0;
+  font-family: monospace;
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+.intro .form button {
+  margin: 0;
+}
+.intro .form p {
+  color: white;
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=IntroView.css.map */

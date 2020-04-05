@@ -1,0 +1,30 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.doneView {
+  background: #008265;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.5em;
+}
+.doneView .container {
+  width: 40vw;
+  color: white;
+}
+.doneView * {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=DoneView.css.map */

@@ -1,0 +1,43 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  background: white;
+  border: none;
+  outline: none;
+  color: #008265;
+  border-radius: 10px;
+  padding: 12px 30px;
+  transition: transform 250ms ease-in-out;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0 20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,19 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "global";
+ 
+.options {
+	width: 25vw;
+	background: $darkGreen;
+	color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.options * { margin: 10px 0; }

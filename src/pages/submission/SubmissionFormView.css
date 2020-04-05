@@ -1,0 +1,78 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.submission {
+  width: 100%;
+  height: 100%;
+  background: #008265;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.submission .form {
+  background: #006851;
+  box-shadow: 0 0 20px #006851;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+}
+.submission .name {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.submission .firstName {
+  margin-right: 4%;
+}
+.submission .name > * {
+  width: 48%;
+}
+.submission .elementContainer, .submission h2 {
+  margin-bottom: 20px;
+  display: block;
+}
+.submission input, .submission button {
+  padding: 10px;
+  flex-grow: 1;
+}
+.submission select {
+  padding: 5px;
+  flex-grow: 1;
+}
+.submission button {
+  margin: 0;
+}
+.submission select, .submission input {
+  border-radius: 5px;
+}
+.submission .elementContainer {
+  display: flex;
+  align-items: center;
+}
+.submission .ionIcon {
+  width: 40px;
+  height: 40px;
+}
+.submission .iconContainer {
+  height: 100%;
+  width: 40px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=SubmissionFormView.css.map */

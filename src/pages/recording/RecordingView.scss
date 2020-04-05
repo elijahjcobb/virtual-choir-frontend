@@ -1,0 +1,34 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "../../global";
+
+.recordingView {
+
+	display: flex;
+	background: $green;
+
+	.songView {
+		width: 50%;
+		background: white;
+	}
+
+	.recorder {
+		width: 50%;
+	}
+
+	.saveButton {
+		display: block;
+		position: absolute;
+		bottom: 40px;
+		left: 20vw;
+		background: $green;
+		color: white;
+		z-index: 20;
+	}
+
+}
