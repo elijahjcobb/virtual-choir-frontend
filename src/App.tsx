@@ -123,7 +123,7 @@ export class App extends React.Component<AppProps, AppState> {
 		(async (): Promise<void> => {
 
 			this.setState({introResponse: response});
-			this.goToLoadView("Fetching Recording");
+			this.goToLoadView("Gathering Information");
 
 			let recordingInfo: APIRecording;
 

@@ -21,7 +21,7 @@
 		display: grid;
 		grid-template-columns: 25% 75%;
 		grid-template-rows: 100%;
-		width: 60vw;
+		width: 80vw;
 		border-radius: 20px;
 		overflow: hidden;
 		box-shadow: 0 10px 40px black;
@@ -29,12 +29,12 @@
 
 	.left {
 		height: 100%;
+		width: 100%;
 		object-fit: cover;
 	}
 
 	.right {
 		padding: 40px;
-		margin-left: 80px;
 	}
 
 	p {
@@ -42,13 +42,13 @@
 	}
 
 	h1 {
-		padding: 80px;
+		padding: 40px;
 		font-size: 3em;
 	}
 
 	button {
 		position: absolute;
-		bottom: 100px;
+		bottom: 40px;
 	}
 
 }
