@@ -32,6 +32,9 @@
 .instruction video {
   border: black solid 8px;
   box-shadow: 0 10px 40px black;
+  max-height: 60vh;
+  max-width: 80vw;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=InstructionView.css.map */
