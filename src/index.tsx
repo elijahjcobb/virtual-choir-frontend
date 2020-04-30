@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {App} from './App';
 import * as serviceWorker from './serviceWorker';
+import {ClosedPage} from "./pages/closed/ClosedPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ClosedPage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
