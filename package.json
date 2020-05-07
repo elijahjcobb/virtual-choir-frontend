@@ -16,7 +16,8 @@
     "typescript": "^3.7.5",
     "@types/dom-mediacapture-record": "latest",
     "@elijahjcobb/prom-type": "latest",
-    "@material-ui/icons": "latest"
+    "@material-ui/icons": "latest",
+    "@material-ui/core": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
