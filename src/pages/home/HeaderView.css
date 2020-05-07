@@ -1,0 +1,71 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.HeaderView {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #232324;
+  box-shadow: 0 -10px 20px #777777;
+}
+.HeaderView h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.HeaderView nav {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+}
+.HeaderView nav .navItem {
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+  padding: 8px 16px;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.HeaderView nav .navItem span {
+  margin-left: 8px;
+}
+.HeaderView nav .navItem:hover {
+  cursor: pointer;
+}
+.HeaderView nav .active, .HeaderView nav .navItem:hover {
+  background: #3f3f3f;
+}
+.HeaderView nav .active {
+  color: white;
+}
+
+@media (min-width: 720px) {
+  .HeaderView {
+    padding: 32px;
+  }
+  .HeaderView nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .HeaderView nav .navItem {
+    padding: 12px 24px;
+  }
+}
+
+/*# sourceMappingURL=HeaderView.css.map */

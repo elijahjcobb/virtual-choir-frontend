@@ -5,35 +5,20 @@
  * github.com/elijahjcobb
  */
 
-@import "global";
+@import "variables";
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+.App {
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+	.appContainer {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 
-.main {
-	width: 100vw;
-	height: 100vh;
-	font-family: 'Open Sans', sans-serif;
-}
+	.appContent {
+		width: 100%;
+		max-width: 720px;
+		padding: 0 40px;
+	}
 
-button {
-	background: white;
-	border: none;
-	outline: none;
-	color: $green;
-	border-radius: 10px;
-	padding: 12px 30px;
-	transition: transform 250ms ease-in-out;
-	font-weight: bold;
-	font-size: 1.25em;
-	margin: 0 20px;
-}
-
-button:hover {
-	transform: scale(1.1);
 }
