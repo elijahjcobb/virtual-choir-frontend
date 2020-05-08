@@ -13,8 +13,11 @@ import {
 	MusicNoteOutlined as MusicNoteIcon
 } from "@material-ui/icons";
 
-export interface HeaderViewProps {
+export type Pages =  "home" | "credits" | "submit";
 
+export interface HeaderViewProps {
+	page: Pages;
+	onChangePage: (page: Pages) => void;
 }
 
 export interface HeaderViewState {
@@ -33,15 +36,21 @@ export class HeaderView extends React.Component<HeaderViewProps, HeaderViewState
 		return (<header className={"HeaderView"}>
 			<h1>Virtual Choir</h1>
 			<nav>
-				<div className={"navItem active"}>
+				<div
+					onClick={() => this.props.onChangePage("home")}
+					className={"navItem" + (this.props.page === "home" ? " active" : "")}>
 					<HomeIcon/>
 					<span>Home</span>
 				</div>
-				<div className={"navItem"}>
+				<div
+					onClick={() => this.props.onChangePage("credits")}
+					className={"navItem" + (this.props.page === "credits" ? " active" : "")}>
 					<GroupIcon/>
 					<span>Credits</span>
 				</div>
-				<div className={"navItem"}>
+				<div
+					onClick={() => this.props.onChangePage("submit")}
+					className={"navItem" + (this.props.page === "submit" ? " active" : "")}>
 					<MusicNoteIcon/>
 					<span>Submit</span>
 				</div>

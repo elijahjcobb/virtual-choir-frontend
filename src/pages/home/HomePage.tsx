@@ -26,7 +26,7 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
 
 	public render(): React.ReactElement {
 		return (<div>
-
+			<p>Home</p>
 		</div>);
 	}
 
